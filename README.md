@@ -72,15 +72,6 @@ function CheckShop()
     end
 end
 
--- Auto Fruit Sniper (Compra frutas automaticamente)
-FruitTab:AddToggle("AutoFruitSniper", {
-    Title = "Ativar Auto Fruit Sniper",
-    Default = false,
-    Callback = function(Value)
-        _G.AutoFruitSniper = Value
-    end
-})
-
 -- Função para Auto Farm
 function AutoFarmFunction()
     while _G.AutoFarm do
